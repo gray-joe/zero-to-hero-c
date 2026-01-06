@@ -1,0 +1,35 @@
+# Build artifacts
+bin/
+obj/
+*.o
+*.a
+*.so
+*.dylib
+
+# Compiled executables
+dbview
+
+# Database files (test data)
+*.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compilation database
+compile_commands.json
+
+# Cache directories
+.cache/
+
+# macOS
+.DS_Store
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
