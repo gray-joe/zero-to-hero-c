@@ -44,7 +44,7 @@ int add_employee(struct dbheader_t *dbhdr, struct employee_t **employees, char *
 	dbhdr->count++;
 
 	strncpy(e[dbhdr->count-1].name, name, sizeof(e[dbhdr->count-1].name)-1);
-	strncpy(e[dbhdr->count-1].address, name, sizeof(e[dbhdr->count-1].address)-1);
+	strncpy(e[dbhdr->count-1].address, address, sizeof(e[dbhdr->count-1].address)-1);
 	e[dbhdr->count-1].hours = atoi(hours);
 
 	*employees = e;
